@@ -1,5 +1,5 @@
 const taskReducer = (state = [], {type, payload}) => {
-    let list = JSON.parse(localStorage.getItem('fullTaskList'));
+    let list = JSON.parse(localStorage.getItem('fullTaskList')) || [];
     let res =  {
         count: list.length,
         list
