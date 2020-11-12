@@ -1,0 +1,9 @@
+.table-cont {
+    overflow-y: scroll;
+    max-height: 60vh;
+}
+
+.delete-button {
+    color: #dc3545;
+    cursor: pointer;
+}
